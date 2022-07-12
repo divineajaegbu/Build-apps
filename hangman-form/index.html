@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman-form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../image/favicon.jpg">
+</head>
+<body>
+    <div class="container display1">
+        <div class="header">
+            <h2>SINGUP TO HANGMAN-APP</h2>
+        </div>
+
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" autocomplete="off" id="username" placeholder="Enter your fullname">
+                <ion-icon name="checkmark-circle" class="success__icon"></ion-icon>
+                <ion-icon name="alert-circle" class="failure__icon"></ion-icon>
+                <small>Error Msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your email">
+                <ion-icon name="checkmark-circle" class="success__icon"></ion-icon>
+                <ion-icon name="alert-circle" class="failure__icon"></ion-icon>
+                <small>Error Msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="number">Phone number</label>
+                <input type="number" name="number" id="phone" placeholder="Enter your number">
+                <ion-icon name="checkmark-circle" class="success__icon"></ion-icon>
+                <ion-icon name="alert-circle" class="failure__icon"></ion-icon>
+                <small>Error Msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" autocomplete="off"
+                    placeholder="Enter your password">
+                <ion-icon name="checkmark-circle" class="success__icon"></ion-icon>
+                <ion-icon name="alert-circle" class="failure__icon"></ion-icon>
+                <small>Error Msg</small>
+            </div>
+
+
+
+            <div class="form-control">
+                <label for="password">Confirm password</label>
+                <input type="password" name="password" id="cpassword" autocomplete="off"
+                    placeholder="Enter your Password again">
+                <ion-icon name="checkmark-circle" class="success__icon"></ion-icon>
+                <ion-icon name="alert-circle" class="failure__icon"></ion-icon>
+                <small>Error Msg</small>
+            </div>
+
+            <input type="submit" value="Submit" class="btn  show1" name="submit">
+        </form>
+    </div>
+
+
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>

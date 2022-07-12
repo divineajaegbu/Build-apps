@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="../projects/style.css">
+</head>
+<body>
+    <!-- https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form/ -->
+    <div class="container">
+        <form action="" id="form">
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Already Have an Account?<br />
+                    <span>Sign In</span>
+                </div>
+
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="https://img.icons8.com/fluency/30/000000/google-logo.png" />
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" />
+                        Sign Up
+                    </div>
+                </div>
+
+                <div class="or">Or</div>
+            </div>
+            <!-- /**
+                * ! User name Input here
+             **/-->
+            <div>
+                <label for="username">User Name</label>
+                <ion-icon name="person"></ion-icon>
+                <input type="text" name="username" id="username" placeholder="Ajaegbu Divine">
+                <ion-icon name="alert-circle" class="failure-icon"></ion-icon>
+                <ion-icon name="checkmark-circle" class="success-icon"></ion-icon>
+                <div class="error"></div>
+            </div>
+
+            <!-- /**
+                * ! Email name Input here
+             **/-->
+            <div>
+                <label for="email">Email</label>
+                <ion-icon name="mail-open"></ion-icon>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                <ion-icon name="alert-circle" class="failure-icon"></ion-icon>
+                <ion-icon name="checkmark-circle" class="success-icon"></ion-icon>
+                <div class="error"></div>
+            </div>
+
+            <!-- /**
+                * ! Password name Input here
+             **/-->
+            <div>
+                <label for="password">Password</label>
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="password" name="password" id="password" placeholder="Password here">
+                <ion-icon name="alert-circle" class="failure-icon"></ion-icon>
+                <ion-icon name="checkmark-circle" class="success-icon"></ion-icon>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../projects/scripts.js">
+    </script>
+</body>
+</html>
